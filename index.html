@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kulüp Etkinlikleri</title>
+    <!-- Favicon tanımlamaları -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Üst menü bölümü -->
+    <header>
+        <div class="ust-menu-kapsayici">
+            <div class="logo-alani">
+                <img src="IMG_6924.PNG" alt="Kulüp Logo">
+                <h1>Kulüp Etkinlikleri</h1>
+            </div>
+            <div class="ust-menu-sag">
+                <!-- Arama kutusu -->
+                <div class="arama-kutusu">
+                    <input type="text" placeholder="Etkinlik ara...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <!-- Bildirim ikonu -->
+                <div class="bildirimler">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <!-- Giriş/Kayıt butonları -->
+                <div class="giris-butonlari">
+                    <button class="giris-btn">Giriş Yap</button>
+                    <button class="kayit-btn">Kayıt Ol</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Video arka plan bölümü -->
+    <section class="video-arkaplan">
+        <div class="video-kapsayici">
+            <video autoplay muted loop playsinline>
+                <source src="video.mp4" type="video/mp4">
+                Tarayıcınız video etiketini desteklemiyor.
+            </video>
+        </div>
+    </section>
+
+    <!-- Hoş geldiniz bölümü -->
+    <section class="hosgeldiniz-bolumu">
+        <div class="hosgeldiniz-icerik">
+            <h2>Kulübümüzün Etkinliklerine Hoş Geldiniz</h2>
+            <p>Hayal kurmaktan korkmayan, cesur ve vizyoner gençler olarak bu kulüpte bir araya geldik. Çünkü biz biliyoruz ki; geleceği şekillendirenler, bugünden harekete geçenlerdir.</p>
+        </div>
+        <!-- Filtreleme menüsü -->
+        <nav class="filtre-menu">
+            <button class="filtre-btn aktif">Tümü</button>
+            <button class="filtre-btn">Yaklaşan</button>
+            <button class="filtre-btn">Geçmiş</button>
+        </nav>
+    </section>
+
+    <!-- Ana içerik bölümü -->
+    <main>
+        <div class="etkinlik-izgara">
+            <!-- Etkinlik Kartı 1 -->
+            <div class="etkinlik-karti">
+                <div class="etkinlik-gorsel">
+                    <img src="afis1.png" alt="Etkinlik Görseli">
+                </div>
+                <div class="etkinlik-icerik">
+                    <h3>Marmara Kariyer Fuarı (MARMARAKAF)</h3>
+                    <div class="etkinlik-bilgi">
+                        <p><i class="fas fa-calendar"></i> 28 Nisan 2025, 10:00</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Kocaeli Üniversitesi</p>
+                    </div>
+                    <p class="etkinlik-aciklama">
+                        Kocaeli Üniversitesi'nin ev sahipliğiyle düzenlenen Marmara Kariyer Fuarı, gençlerin kariyer yolculuklarında destek ve bilgi sağlayan bir etkinliktir.
+                    </p>
+                    <button class="detay-btn">Detayları Gör</button>
+                </div>
+            </div>
+
+            <!-- Etkinlik Kartı 2 -->
+            <div class="etkinlik-karti">
+                <div class="etkinlik-gorsel">
+                    <img src="afis2.png" alt="Etkinlik Görseli">
+                </div>
+                <div class="etkinlik-icerik">
+                    <h3>Bilişim Zirvesi</h3>
+                    <div class="etkinlik-bilgi">
+                        <p><i class="fas fa-calendar"></i> 21 Mayıs 2025, 10:00</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Mudanya Üniversitesi-Konferans Salonu</p>
+                    </div>
+                    <p class="etkinlik-aciklama">
+                        Yapay zeka ve gelecek teknolojileri hakkında uzman konuşmacılarla interaktif bir buluşma...
+                    </p>
+                    <button class="detay-btn">Detayları Gör</button>
+                </div>
+            </div>
+
+            <!-- Etkinlik Kartı 3 -->
+            <div class="etkinlik-karti">
+                <div class="etkinlik-gorsel">
+                    <img src="afis3.png" alt="Etkinlik Görseli">
+                </div>
+                <div class="etkinlik-icerik">
+                    <h3>Akademisyen-Öğrenci Buluşması</h3>
+                    <div class="etkinlik-bilgi">
+                        <p><i class="fas fa-calendar"></i> 28 Mayıs 2025, 13:00</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Teams Meeting</p>
+                    </div>
+                    <p class="etkinlik-aciklama">
+                        Akademisyen ve öğrenci buluşması, akademik çalışmalarınızı paylaşırken yeni işbirlikleri yapmanızı sağlayan bir etkinliktir.
+                    </p>
+                    <button class="detay-btn">Detayları Gör</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Alt bilgi bölümü -->
+    <footer>
+        <div class="alt-bilgi-icerik">
+            <div class="alt-bilgi-bolum">
+                <h4>Kulüp Hakkında</h4>
+                <p>Üyelerimizin özgün fikirlerini teknoloji ile birleştirerek yenilikçi projeler geliştirmelerini, sektörel gelişmeleri takip etmelerini ve bilgi paylaşımını teşvik etmeyi amaçlayan bir kulübüz.</p>
+            </div>
+            <div class="alt-bilgi-bolum">
+                <h4>Hızlı Erişim</h4>
+                <ul>
+                    <li><a href="#">Ana Sayfa</a></li>
+                    <li><a href="#">Etkinlikler</a></li>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="alt-bilgi-bolum">
+                <h4>Sosyal Medya</h4>
+                <div class="sosyal-medya-ikonlari">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/mudufitech/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/groups/10101006/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="alt-bilgi-alt">
+            <p>&copy; 2024 Kulüp Etkinlikleri. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
